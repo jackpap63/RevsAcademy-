@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Revolution Mixed Martial Arts Academy - Chelmsford, Essex" />
+  <meta name="keywords" content="MMA, Mixed Martial Arts, Chelmsford, Yoga, Nutrition, Classes, Perry Snooks" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revolution Mixed Martial Arts Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <!-- Replace 'images/logo.png' with your actual logo file -->
+    <img src="images/logo.png" alt="Revolution MMA Academy Logo" class="logo" />
+    <h1 class="academy-name">Revolution Mixed Martial Arts Academy</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#online-store">Store</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="overlay">
+      <h2 class="slogan">You can achieve your dreams</h2>
+      <p class="quote">"A black belt is a white belt that never gave up"</p>
+      <a href="#online-store" class="cta-button">Start Your Journey</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <h2>About Our Academy</h2>
+    <p>
+      Welcome to Revolution Mixed Martial Arts Academy in Chelmsford, Essex.
+      We are dedicated to helping you realize your full potential through MMA,
+      fitness, and wellness programs.
+    </p>
+    <p>
+      Our expert instructors, including Perry Snooks, bring years of experience 
+      to guide you towards achieving your goals—whether it’s mastering martial
+      arts, improving overall fitness, or enhancing mental resilience.
+    </p>
+  </section>
+
+  <!-- ONLINE STORE -->
+  <section id="online-store" class="store">
+    <h2>Online Store</h2>
+    <div class="product-grid">
+      
+      <!-- Warrior Yoga / Yoga for Men -->
+      <div class="product-card">
+        <!-- Replace 'images/warrior-yoga.jpg' with your actual image file -->
+        <img src="images/warrior-yoga.jpg" alt="Warrior Yoga" />
+        <h3>Warrior Yoga (Yoga for Men)</h3>
+        <p>Build strength, flexibility, and focus.</p>
+        <!-- Link this button to your payment page or e-commerce provider -->
+        <button class="buy-button">Buy Now</button>
+      </div>
+
+      <!-- Clothing and Hoodies -->
+      <div class="product-card">
+        <img src="images/hoodie.jpg" alt="Revolution Academy Hoodie" />
+        <h3>Academy Hoodie</h3>
+        <p>Show your pride in style with our branded hoodie.</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+
+      <!-- Online Classes -->
+      <div class="product-card">
+        <img src="images/online-class.jpg" alt="Online MMA Classes" />
+        <h3>Online Classes</h3>
+        <p>Train with us from anywhere, anytime.</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+
+      <!-- Nutrition Plans -->
+      <div class="product-card">
+        <img src="images/nutrition-plan.jpg" alt="Nutrition Plan" />
+        <h3>Nutrition Plans</h3>
+        <p>Fuel your body right for peak performance.</p>
+        <button class="buy-button">Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="tel" name="phone" placeholder="Your Phone Number" />
+      <textarea name="message" placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="social-media">
+      <a href="https://www.instagram.com/YOUR_INSTAGRAM" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/YOUR_FACEBOOK" target="_blank">Facebook</a>
+      <!-- TikTok link -->
+      <a href="https://www.tiktok.com/@YOUR_TIKTOK" target="_blank">TikTok</a>
+    </div>
+    <p>© 2025 Revolution Mixed Martial Arts Academy</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

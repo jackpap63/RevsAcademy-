@@ -1,0 +1,16 @@
+// Simple contact form alert (Replace with real submission logic if needed)
+document.querySelector(".contact-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  
+  // Gather form data if you plan to send to a backend or email
+  const name = e.target.name.value;
+  const email = e.target.email.value;
+  const phone = e.target.phone.value;
+  const message = e.target.message.value;
+
+  // For now, just alert success
+  alert(`Thank you, ${name}! We'll be in touch soon.`);
+
+  // Clear form fields
+  e.target.reset();
+});
